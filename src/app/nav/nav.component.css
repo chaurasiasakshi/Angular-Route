@@ -1,0 +1,30 @@
+.nav{
+    background-color: blue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2q3tv5Ijc_6jLpUQJT3H-PwkIQUF-1q9p0g&usqp=CAU");
+    padding: 1em;
+}
+
+.nav-item .img{
+    height: auto;
+    animation: roll 2s infinite linear ;  
+    margin-left: -12em;
+
+
+}
+@keyframes roll {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:  rotate(360deg);
+    }
+    
+}
+
+.nav-link{
+    color: wheat;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+   
+}

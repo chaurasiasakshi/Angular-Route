@@ -1,0 +1,42 @@
+.row h4 , h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration-line: underline;
+    
+}
+.logo{
+    background-color: skyblue;
+    padding: 2em;
+}
+
+
+.address{
+   background-color: rgb(197, 231, 246);
+   padding: 1em;
+}
+
+ i{
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px gray;
+    
+}
+
+.col-2 ,.col-3 p {
+    font-size: 1.2em;
+    font-weight: 500;
+
+}
+
+.bottom{
+    background-color: rgb(4, 4, 91);
+    height: 250px;
+    padding: 5em;
+
+}
+
+.bottom h4{
+    color: white;
+    font-weight: 200;
+    border-bottom: 1px solid white;
+    font-size: .8em;
+}

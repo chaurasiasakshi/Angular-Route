@@ -1,0 +1,13 @@
+th{
+    background-color: rgb(25, 25, 143);
+    color: white;
+}
+
+h1{
+   background-image: url('https://www.shutterstock.com/image-photo/field-hockey-player-about-pass-260nw-1460394866.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 200px;
+   color: white;
+  filter: blur(100);
+}
