@@ -3,11 +3,22 @@ th{
     color: white;
 }
 
-h1{
+.bg::before{
+  content: " ";  
    background-image: url('https://www.shutterstock.com/image-photo/field-hockey-player-about-pass-260nw-1460394866.jpg');
    background-repeat: no-repeat;
    background-size: cover;
-   height: 200px;
-   color: white;
-  filter: blur(100);
+   background-position: center;
+ display: block;
+ height: 200px;
+   filter: blur(5px);
+   top: 5em;
+   /* border-radius: 10%; */
+   border: 4px solid rgb(0, 0, 0);
+}
+h1{
+  color: white;
+  /* padding: 2em; */
+  position: relative;
+  bottom: 3em;
 }
