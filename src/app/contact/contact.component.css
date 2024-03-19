@@ -14,3 +14,11 @@
     position: relative;
     bottom: 3em;
   }
+
+  .box-1{
+    border:2px solid red;
+  }
+
+  .box-2{
+    border:2px solid blue;
+  }
